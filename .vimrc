@@ -1,19 +1,33 @@
+"my vim configuration files #asdrubaljj
+
+
 set ruler 
 set number 
-set smartcase 
+set smartcase
+set smartindent
+
+"autocompletition
 set wildmenu 
-set smartindent 
+set wildmode=longest:full,full
 
 "Show matching brackets 
 set showmatch
 
+"Use mouse
 set mouse=a
+
+"CTRL-c y CTRL-v p
 set clipboard=unnamedplus
+
 syntax enable
+
 
 set ai 
 set si 
 set wrap 
+
+
+
 
 call plug#begin()
 Plug 'scrooloose/syntastic'
